@@ -1,0 +1,112 @@
+/*Universal for all pages*/
+
+body{
+        background:f4f4f4;
+        color:#555;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:16px;
+        line-height:1.6em;
+        margin:auto;
+}
+
+#navbar{
+        background-color:#fff;
+        color:#333;
+}
+
+#navbar ul{
+        padding:0px;
+        list-style:none;
+        text-align:center;
+}
+
+#navbar li{
+        display:inline;
+        text-align:center;
+}
+
+#navbar a{
+        color:#333;
+        text-decoration:none;
+        font-size:18px;
+        padding-right:15px;
+        text-align:center;
+}
+
+.center{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width:20%;
+}
+
+#main-footer{
+        background:#333;
+        color:#fff;
+        text-align:center;
+        padding:20px;
+        margin-top:40px;
+}
+
+#main-footer a:link{
+        color:gray;
+}
+
+#main-footer a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#main-footer a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*Main - Home Page*/
+
+#main-home h1{
+        text-align:center;
+}
+
+#main-home{
+        text-align:center;
+}
+
+#middle-home{
+        text-align:center;
+}
+
+#end-home{
+        text-align:center;
+}
+
+
+/* Main - About Page */
+#main-about{
+        text-align:center;
+}
+
+.center2{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width:95%;
+}
+
+h1{
+  text-align:center;
+}
+
+/* Main - Contact Page */
+#main-contact{
+        text-align:center;
+}
+
+/* Main - Legal Page */
+
+#main-legal{
+        text-align:center;
+}
+
