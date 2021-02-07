@@ -1,50 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact - Moonqii</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Contact - Moonqii</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/moonqii.css">
+    <link rel="shortcut icon" type="image/png" href="https://plaguecraft.xyz/assets/img/moonqii/logo.jpg"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-			<nav id="navbar">
-			<div class="container">
-				<ul>
-					<li><a href="https://moonqii.xyz">Home</a>
-					<li><a href="about">About</a>
-					<li><a href="#">Contact</a>
-					<li><a href="legaldocs">Legal</a>
-			</ul>
-		</div>
-	</nav>
-<h1 style: text-align:center;"> Contact Moonqii</h1>
-<img class="center" src="moonqii-gray-transp.png">
-	<section id="main-contact">
-		<h1>Need to contact us?<br>
-		You're in the right place!</h1>
-		<p>You can contact Moonqii directly at moonqiixxx@gmail.com for fanmail and/or other purposes.<br>
-		For all affiliation requests, rights requests, and more, please direct those to alexplaguemedia@gmail.com.</p>
+    <a href="https://moonqii.xyz">
+  <img id="logo" src="https://plaguecraft.xyz/assets/img/moonqii/logo.jpg" class="center-logo" length="200" />
+    </a>
+<div id="circularMenu" class="circular-menu">
 
-	<hr>
-	<h1>IMPORTANT WARNING!</h1>
-		<p>If your package from the ??? Line gets lost and/or damaged in shipping, Team Moonqii cannot control that.<br>
-		We request that you reach out to Teespring Support should you have any requests or questions about shipping and/or handling.</p>
+  <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <menu class="items-wrapper">
+    <a href="contact" class="menu-item fa fa-phone"></a>
+    <a href="about" class="menu-item fa fa-users"></a>
+    <a href="https://twitter.com/moonqii" class="menu-item fa fa-twitter"></a>
+    <a href="https://youtube.com/c/moonqii" target="_blank" class="menu-item fa fa-youtube-play"></a>
+  </menu>
+
+</div>
 <hr>
-	<h1>Join the Discord server!</h1>
-	<iframe src="https://discord.com/widget?id=601567529374056449&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-	</section>
-			<footer id="main-footer">
-			<p>&copy; Team Moonqii, All Rights Reserved.<br>
-				Website designed by <a href="https://twitter.com/_awexx">Alex Frantz.</a></p>
-			<a href="https://twitter.com/moonqii">
-				<img src="social-icons/twitter-gray.png">
-			</a>
-			<a href="https://instagram.com/moonqii">
-				<img src="social-icons/instagram-gray.png">
-			</a>
-			<a href="https://youtube.com/c/moonqii">
-				<img src="social-icons/gray-youtube.png">
-			</a>
-			<a href="https://moonqii.xyz/discord">
-				<img src="social-icons/discord-gray.png">
-			</a>
-		</footer>
+
+<h2>Contact Moonqii</h2>
+  <p>Need to contact moonqii? Fill out the contact list below!</p>
+
+    <div class="container">
+  <form method="POST" action="https://api.plaguecraft.xyz/webhooks/init/send-contact-moonqii.php">
+    <div><label>Where do you need support?</label></div>
+    <div><input type="text" name="myService" class="form-control" required /></div>
+    <div><label>Your Name:</label></div>
+    <div><input type="text" name="myName" class="form-control" required /></div>
+    <div><label>Your Email:</label></div>
+    <div><input type="text" name="myEmail" class="form-control" required /></div>
+    <div><label>Discord Name & Tag:</label></div>
+    <div><input type="text" name="myDiscord" class="form-control" required /></div>
+
+    <div><label>Message:</label></div>
+    <div><textarea cols="40" rows="5" name="myMessage" class="form-control" required></textarea></div>
+    <div class="float-center mt-2">
+      <input type="submit" value="Send" class="btn btn-primary" />
+    </div>
+  </form>
+</div>
+<br>
+
+<div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://instagram.com/moonqii/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/moonqii"><i class="icon ion-social-twitter"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="discord">Discord</a></li>
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="https://plaguecraft.xyz/terms">Terms</a></li>
+                <li class="list-inline-item"><a href="https://plaguecraft.xyz/privacy">Privacy</a></li>
+            </ul>
+            <p class="copyright">Team PlagueCraft © 2021<br>
+          <a class="footer-p" href="https://github.com/awexxx/moonqii">Source Code</a><br>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
