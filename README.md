@@ -13,4 +13,4 @@
 
 <p align="center">This webhook is developed in PHP and POSTs to a basic webhook, whether that be Discord, Guilded, or maybe even Slack (if you're looking into that???)!<br>
 This webhook is mainly for users who are building a community but don't clip games and just want a way for your users to share clips and/or are on Guilded or Slack (or any other social media service that accepts webhooks).<br>
-However, this webhook does not have some things that Medal has, like auto-uploading, integrated uploading, and more. I still sincerely recommend using [Medal](https://medal.tv/download) (maybe even use my [partner link ;)](https://medal.tv/?ref=awex_partner).</p>
+However, this webhook does not have some things that Medal has, like auto-uploading, integrated uploading, and more. I still sincerely recommend using (Medal)[https://medal.tv/download], maybe even use my (partner link)[https://medal.tv/?ref=awex_partner] ;).</p>
