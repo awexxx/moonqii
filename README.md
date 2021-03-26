@@ -20,6 +20,7 @@ However, this webhook does not have some things that Medal has, like auto-upload
 <h2 align="center">A few key points..</h2>
 	<p align="center"><strong>First point</strong>: If you'd like to self host this, it is expected you have at least <i>some</i> experience with PHP, however I'm happy to help and answer any questions you may have regarding setting this up! You should check out the <a href="https://github.com/awexxx/medal-clip-webhook/wiki">wiki</a> for more info on self-hosting this script.</p>
 		<p align="center"><strong>Second point</strong>: There are multiple scripts to this webhook, all do different things.<br>
+			--<br>
 			<strong>webhook.php</strong> - JSON Embedded version (Shows in a Discord/Guilded embed).<br>
 			<strong>webhook-plaintext.php</strong> - Plain Text Version (Shows in.. well plain text).</p>
 			<p align="center">
@@ -31,7 +32,7 @@ However, this webhook does not have some things that Medal has, like auto-upload
 				<strong>user</strong> - Your Medal Username<br>
 				<strong>url</strong> - Webhook URL (eg. https://discordapp.com/api/webhooks/...)
 				<hr>
-				<p align="center">Point two and 3/4: Query Scripts<br>
+				<p align="center"><strong>Point two and 3/4: Query Scripts</strong><br>
 			<strong>query.php</strong> - Uses query string params to send the post request (Embedded Version).<br>
 			<strong>query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.<br>
 			An example of a queried URL is below:<br>
@@ -40,5 +41,8 @@ However, this webhook does not have some things that Medal has, like auto-upload
 				<hr>
 				<h2 align="center">how to do the thing tho</h2>
 					<p align="center">Well, you can do it <i>really</i> easily!<br>
-						Navigate over to this <a href="https://awexxx.github.io/medal-clip-webhook/">project site</a> and put in your information. <i>Do note none of this information is saved to a database at this moment, so all it's doing is passing your URL to Discord).</i>Querying will <strong>not</strong> be available on this domain as GitHub Pages only serves static content (all php is running from https://api.plaguecraft.xyz/medalclipwebhook/php).<br>
-					In order to test querying or even use it, you'll have to use the following url: https://api.plaguecraft.xyz/medalclipwebhook/php/query(or query-plaintext).php followed by your query params.</p>
+						Navigate over to this <a href="https://awexxx.github.io/medal-clip-webhook/">project site</a> and put in your information. <i>Do note none of this information is saved to a database at this moment, so all it's doing is passing your URL to Discord). <br></i><strong>Regarding the querying method..</strong> SQuerying will <strong>not</strong> be available on this domain as GitHub Pages only serves static content (all php is running from https://api.plaguecraft.xyz/medalclipwebhook/php).<br>
+					In order to test querying or even use it, you'll have to use the following url: Shttps://api.plaguecraft.xyz/medalclipwebhook/php/query (or query-plaintext).php followed by your query params.</p>
+				<hr>
+			<h2 align="center">Got Questions?</h2>
+				<p align="center">I might have an answer! Feel free to open an issue up if you have any inquiries about this script :)</p>
