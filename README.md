@@ -32,5 +32,7 @@ However, this webhook does not have some things that Medal has, like auto-upload
 				<strong>url</strong> - Webhook URL (eg. https://discordapp.com/api/webhooks/...)
 				<hr>
 				<p align="center">Point two and 3/4: Query Scripts</p>
+				<div style="text-align:center;">
 			<strong align="center">query.php</strong> - Uses query string params to send the post request (Embedded Version).<br>
 			<strong align="center">query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.</p>
+		</div>
