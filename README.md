@@ -18,8 +18,8 @@ However, this webhook does not have some things that Medal has, like auto-upload
 <hr>
 
 <h2 align="center">A few key points..</h2>
-	<p align="center">First point: If you'd like to self host this, it is expected you have at least <i>some</i> experience with PHP, however I'm happy to help and answer any questions you may have regarding setting this up! You should check out the <a href="https://github.com/awexxx/medal-clip-webhook/wiki">wiki</a> for more info on self-hosting this script.</p>
-		<p align="center">Second point: There are multiple scripts to this webhook, all do different things.<br>
+	<p align="center"><strong>First point</strong>: If you'd like to self host this, it is expected you have at least <i>some</i> experience with PHP, however I'm happy to help and answer any questions you may have regarding setting this up! You should check out the <a href="https://github.com/awexxx/medal-clip-webhook/wiki">wiki</a> for more info on self-hosting this script.</p>
+		<p align="center"><strong>Second point</strong>: There are multiple scripts to this webhook, all do different things.<br>
 			<strong>webhook.php</strong> - JSON Embedded version (Shows in a Discord/Guilded embed).<br>
 			<strong>webhook-plaintext.php</strong> - Plain Text Version (Shows in.. well plain text).</p>
 			<p align="center">
@@ -32,5 +32,5 @@ However, this webhook does not have some things that Medal has, like auto-upload
 				<strong>url</strong> - Webhook URL (eg. https://discordapp.com/api/webhooks/...)
 				<hr>
 				<p align="center">Point two and 3/4: Query Scripts</p>
-			<strong>query.php</strong> - Uses query string params to send the post request (Embedded Version).<br>
-			<strong>query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.</p>
+			<strong align="center">query.php</strong> - Uses query string params to send the post request (Embedded Version).<br>
+			<strong align="center">query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.</p>
