@@ -6,7 +6,7 @@
 	<strong>An extra Medal Clip Sharing method</strong></p>
 	<p align="center">
 		<p align="center"><i>Feel free to follow me on Twitter for more projects!</i><br>
-		<a href="https://twitter.com/_awexxx">
+		<a href="https://twitter.com/_awexx">
 	<img src="https://www.ft.com/__origami/service/image/v2/images/raw/ftsocial:twitter?source=Twitter">
 </a>
 </p>
