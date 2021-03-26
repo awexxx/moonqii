@@ -1,5 +1,3 @@
-# moonqii
-
 <p align="center">
-  <img width="460" height="300" src="http://www.fillmurray.com/460/300">
+  <img width="460" height="300" src="https://cdn.medal.tv/assets/img/avatars/default.png">
 </p>
