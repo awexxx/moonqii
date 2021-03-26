@@ -3,10 +3,9 @@
 </p>
 
 <p align="center">
-	<strong>An extra Medal Clip Sharing method</strong>
-		<div style="text-align:center;">
+	<strong>An extra Medal Clip Sharing method</strong></p>
+	<p align="center">
 	<img src="https://www.ft.com/__origami/service/image/v2/images/raw/ftsocial:twitter?source=Twitter">
-</div>
 </p>
 
 <hr>
