@@ -33,4 +33,12 @@ However, this webhook does not have some things that Medal has, like auto-upload
 				<hr>
 				<p align="center">Point two and 3/4: Query Scripts<br>
 			<strong>query.php</strong> - Uses query string params to send the post request (Embedded Version).<br>
-			<strong>query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.</p>
+			<strong>query-plaintext.php</strong> - Same as above, but make it <strong><i>plain text</i></strong>.<br>
+			An example of a queried URL is below:<br>
+			https://domain.com/query.php?url=https://discord.com/api/webhooks/825133951982239814/QaeNFQSwed428TXRMiGm47CRGnwmSukOXXNc_lG-Pg4jCnGTDyJU-gbvis0MuakNZ-d-&caption=poggers&user=babyawex&link=medal.tv/clip/...<br>
+			<i>I'm not that dumb, so the webhook link you see here has already been deleted before you try anything here LOL</i></p>
+				<hr>
+				<h2 align="center">how to do the thing tho</h2>
+					<p align="center">Well, you can do it <i>really</i> easily!<br>
+						Navigate over to this <a href="https://awexxx.github.io/medal-clip-webhook/">project site</a> and put in your information. <i>Do note none of this information is saved to a database at this moment, so all it's doing is passing your URL to Discord).</i>Querying will <strong>not</strong> be available on this domain as GitHub Pages only serves static content (all php is running from https://api.plaguecraft.xyz/medalclipwebhook/php).<br>
+					In order to test querying or even use it, you'll have to use the following url: https://api.plaguecraft.xyz/medalclipwebhook/php/query(or query-plaintext).php followed by your query params.</p>
